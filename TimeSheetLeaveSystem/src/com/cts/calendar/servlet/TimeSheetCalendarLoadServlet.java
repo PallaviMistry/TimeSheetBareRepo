@@ -38,6 +38,7 @@ public class TimeSheetCalendarLoadServlet extends HttpServlet {
 		{
 			//increase the month by one
 			if(previousSelectedMonth == 11) {
+				//Comment added to conflict
 				currentSelectedMonth = 0 ; 
 				currentSelectedYear = previousSelectedYear +1;
 			}
